@@ -1,0 +1,49 @@
+<!-- Header section -->
+{% include 'header.html' %}
+
+<!--&lt;!&ndash; Main content section &ndash;&gt;-->
+<!--<div class="container mt-4">-->
+<!--    <div class="row">-->
+<!--        <div class="col-12">-->
+<!--            <h2>Featured Products</h2>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    &lt;!&ndash; Random Items Row &ndash;&gt;-->
+<!--    <div class="row">-->
+<!--        {% for product in random_products %}-->
+<!--        <div class="col-md-4 mb-4">-->
+<!--            &lt;!&ndash; Product card design (you can customize this) &ndash;&gt;-->
+<!--            <div class="card">-->
+<!--                <img src="{{ product.image_url }}" class="card-img-top" alt="Product Image">-->
+<!--                <div class="card-body">-->
+<!--                    <h5 class="card-title">{{ product.name }}</h5>-->
+<!--                    <p class="card-text">${{ product.price }}</p>-->
+<!--                    <a href="#" class="btn btn-primary">Add to Cart</a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        {% endfor %}-->
+<!--    </div>-->
+
+<!--    &lt;!&ndash; Categories Rows &ndash;&gt;-->
+<!--    {% for category in categories %}-->
+<!--    <div class="row">-->
+<!--        <div class="col-12">-->
+<!--            <h2>{{ category }}</h2>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="row">-->
+<!--        {% for product in products[category] %}-->
+<!--        <div class="col-md-4 mb-4">-->
+<!--            &lt;!&ndash; Product card design (similar to above) &ndash;&gt;-->
+<!--        </div>-->
+<!--        {% endfor %}-->
+<!--    </div>-->
+<!--    {% endfor %}-->
+
+<!--</div>-->
+
+<!-- Footer section -->
+{% include 'footer.html' %}
+
